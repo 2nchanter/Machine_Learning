@@ -30,12 +30,12 @@ x : 독립변수
 <br>연속성(숫자) 변수 -> 회귀 모형, Regression / ex) 주식가격예측
 <br>이산형(문자) 변수 -> 분류 모형, Classification ex) 공정 불량 여부 탐지
 
-2. 비지도학습
+2. 비지도학습, Unsupervised learning
 - input, un-labeled data
 <br>유사한 데이터끼리 그룹화 -> 군집 분석, Clustering / ex) 고객 segmentatation
 <br>독립변수들의 차원을 축소화 -> PCA
 
-3. 강화학습
+3. 강화학습, reinforcement learning
 - No data set, state & action, Simulation, Decision making
 <br>수 많은 시뮬레이션을 통해 현재의 선택이 미래에 보상이 최대가 되도록 학습 / ex) 알파고
 
