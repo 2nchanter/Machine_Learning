@@ -23,7 +23,6 @@ x : 독립변수
 ```
 
 ## 02.지도학습과 비지도학습
-
 ### 1. 지도학습(Supervised learning)
 - input/output, labeled data
 <br>연속성(숫자) 변수 -> `회귀 모형(Regression)` / ex) 주식가격예측
@@ -39,9 +38,7 @@ x : 독립변수
 <br>수 많은 시뮬레이션을 통해 현재의 선택이 미래에 보상이 최대가 되도록 학습 / ex) 알파고
 
 ## 03.Machine Learning의 종류
-
 ### Supervised learning
-
 #### 1. 선형 회귀분석(Linear regression)
 - `직선을 모델링해서 y를 추측`
 - 인과관계 파악이 쉽지만, 비선형 관계(2차)에서는 표현이 어렵다.
@@ -119,7 +116,7 @@ Flexibility - 복잡도, 얼마나 이 모양이 복잡한가.
 
 ## 05.모형의 적합성 평가 및 실험설계 - 2
 ### 0. 데이터 분석과정
-<br>`raw data` - `전처리 된 data` - `실험설계` - `Model`
+`raw data` - `전처리 된 data` - `실험설계` - `Model`
 
 ### 1. 전처리
 - `'어떠한 변수가 결과에 영향을 미칠까?'`를 생각하고 합리적인 근거로 데이터 병합 및 파생변수(feature)를 만들어야 한다.
@@ -132,7 +129,6 @@ Flexibility - 복잡도, 얼마나 이 모양이 복잡한가.
 <br>총 데이터의 비율이 9:1이면, training data도 9:1, validation 9:1로 맞춰서 실험하는 것이 좋다. (층화 추츨) ???
 
 ## 06.과적합(Overfitting)이란
-
 - `training data에 너무 잘 맞지만, validation data나 test data에는 맞지 않는 현상`
 <br>data가 적거나, 모형이 복잡하면 복잡할수록 잘 일어난다.
 <br><img width="700" alt="스크린샷 2021-09-01 오후 8 00 29" src="https://user-images.githubusercontent.com/89369520/131660323-f147bd85-a9e5-4ca6-b6a4-4e96053b4441.png">
