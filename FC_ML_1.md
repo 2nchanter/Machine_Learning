@@ -16,7 +16,7 @@ y^ = f^(x) + ε
 y : 종속변수
 f() : 모델
 x : 독립변수
-ε : 오차항
+ε : (우리가 맞출 수 없는)오차항
 ^ : 우리가 추측한 상태
 
 # 우리는 모집단 전체가 아닌 우리가 아는 일부분으로만 학습시키기 때문에 '추측한 상태'가 된다.
@@ -128,11 +128,29 @@ Flexibility - 복잡도, 얼마나 이 모양이 복잡한가.
 
 2. 실험설계
 - `Traning-Validation-Test` 
-
-
-
-
-
-
+- ex) class imbalance (?) 한 경우, 실제 데이터의 비율과 동일하게 sampling을 해야된다.
+<br>총 데이터의 비율이 9:1이면, training data도 9:1, validation 9:1로 맞춰서 실험하는 것이 좋다. (층화 추츨) ???
 
 ## 06.과적합(Overfitting)이란
+
+- `training data에 너무 잘 맞지만, validation data나 test data에는 맞지 않는 현상`
+<br>data가 적거나, 모형이 복잡하면 복잡할수록 잘 일어난다.
+<br><img width="700" alt="스크린샷 2021-09-01 오후 8 00 29" src="https://user-images.githubusercontent.com/89369520/131660323-f147bd85-a9e5-4ca6-b6a4-4e96053b4441.png">
+<br> 실제 값과 예측 값에 대한 성능 지표 `MSE`는, 예측 모델의 분산`Var`과 모델이 예측할 수 있는 정도 `Bias`와 어쩔 수 없는 오차 `𝜖`로 이루어져 있다.
+
+```
+오류제곱의 평균(Mean Squared Error) = 감소 가능한 오류(redicible error) + 감소 불가능한 오류(irredicible error)
+                                   = 분산(variance) + 편파성(bias)
+```
+- variance : 다른 학습 데이터를 이용했을 때, f^이 변하는 정도
+<br>Bias : 추측한 값과 실제 데이터의 다른 정도
+<br>따라서 복잡할수록 variance가 높아지며, 간단할 수록 bias가 높아진다. 이 trade-off 관계에서 최소값을 찾는 것이 포인트.
+<br><img width="300" alt="스크린샷 2021-09-01 오후 8 22 32" src="https://user-images.githubusercontent.com/89369520/131662952-a3b44b0a-0bba-4725-be18-265149deba41.png">
+
+>Q1. Overfitting은 딱 맞는건데 왜 안좋은거야?
+<br>A1. 우리가 갖고있는 data가 모집단이 아니라서 안좋은 것.
+
+>Q2. Training-Validation-Test를 Random하게 가져가면 Overfitting되도 여기저기 잘맞는거 아닐까?
+<br>A2. 완벽한 random은 없으며, 표본은 모집단을 대표할 수가 없다. 
+
+
