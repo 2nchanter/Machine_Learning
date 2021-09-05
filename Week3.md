@@ -18,9 +18,24 @@
 - `극대값, 극소값` : f'(x)=0인 지점이 극대값!
 
 ## 10.수학적 개념 이해 - Likelihood, 확률분포함수
-### Likelihood
-- `확률분포함수` : 주어진 확률분포가 있을 때, 관측값이 얼마의 확률로 존재하는가
-- `likelihood 함수` : 자료가 주어졌을 때, 특정 모수가 변함에 따라 확률 값이 어떻게 되는지
-<br> - 우리가 가진 자료를 가장 잘 설명하는 모수의 값이 뭘까?  
+### Likelihood : [최대우도법(MLE)](https://angeloyeo.github.io/2020/07/17/MLE.html)
+- 확률분포함수, `Probability disturibution function`
+<br> 주어진 확률분포가 있을 때, 관측값이 얼마의 확률로 존재하는가
+<br> - 확률밀도함수, Probability density function / PDF : 연속형
+<br> - 확률질량함수, Probability mass function : 이산형
 
--`R.A. Fisher`  우리가 가진 자료를 가장 잘 설명하는 모수로 모수를 추정 
+- 가능도 함수, `Likelihood function`
+<br> 각 x당 확률의 합 데이터가 어떤 분포로부터 나왔을 가능도.
+<br> - 찾고자하는 파라미터 θ에 대하여 다음과 같이 편미분하고 그 값이 0이 되도록 하는 θ를 찾는 과정을 통해 likelihood 함수를 최대화 시켜줄 수 있는 θ를 찾을 수 있다.
+
+## 11.수학적 개념 이해 - MLE 개념
+### Likelihood
+- Likelihood function
+<br><img width="400" src="https://user-images.githubusercontent.com/89369520/132119445-c302027c-5050-4f58-947f-2b21f5675fb9.png">
+
+- Maximum Likelihood Estimator / `MLE`
+<br>Likelihood를 최대로 만드는 모수의 값
+<br><img width="600" src="https://user-images.githubusercontent.com/89369520/132119608-e75b5e75-16d7-467d-baf8-150660edb7c4.png">
+<br><img width="400" src="https://user-images.githubusercontent.com/89369520/132119513-53590a56-dd40-4a03-b520-c6da61509778.png">
+
+
