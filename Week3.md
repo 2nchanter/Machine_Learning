@@ -46,10 +46,10 @@
 ## 13.수학적 개념 이해 - Matrix 정의 및 성질
 ### Matrix 표기법
  - Matrix
- - Vector : 행, 열의 수가 1인 경우. row vector, cloumn vector.
+ - `Vector` : 행, 열의 수가 1인 경우. row vector, cloumn vector.
  - Trnspose and symmetric : 행열전환 / A -> A^T
 <br> A = A^T 일 떄, 두개는 Symmetric이다.
- - Scalar : 원소 하나.
+ - `Scalar` : 원소 하나.
  - Identity matrix : I, 대각선 원소가 모두 1, 나머지 0인 matrix
  - Diagonal matrix : diag(a1,,,an), 대각선 원소값만 바뀌고, 나머지 0인 matrix
  - Equality : 모든 i, j에 대하여 aij = bij 이면 A = B
@@ -57,11 +57,23 @@
 <br> - 상수배 : B = kA
 <br> - 행렬곱 : A = (m x p), B = (p x n) => C = AB = (m x n) / 일반적으로 AB =/ BA
 - 내적 : row vector와 column vector의 곱
-<br>  - 행렬 곱의 성질 : AB = 0 이더라도 A, B 어느것도 0이 아닐 수 있다.
-- 
+<br> - 행렬 곱의 성질 : AB = 0 이더라도 A, B 어느것도 0이 아닐 수 있다.
+- Trace : matrix의 대각원소들의 합 / 역행렬이 존재하는지 여부와 관련이 있음
+<br> - tr(A^T) = tr(A), tr(kA) = ktr(A), tr(In) = n
+<br> - A, B가 정사각 행렬인 경우, tr(ABC) = tr(BCA) = tr(CAB)
+- 행렬식, determinant |A| 구하기
+<br> - 2 by 2 matrix : |A| = a11a22-a12a21 / + Cramer's rule
+- `역행렬, Inverse` : AB = BA = In -> A와 B는 서로의 역행렬이다.
+- Idempotent : AA = A
 
-
-
+## 14.수학적 개념 이해 - Matrix 미분 기초
+### Matrix 미분
+#### 미분표기법의 종류
+- Numerator layout
+<br> 미분 당하는 변수를 기준으로 결과의 형태를 표기
+- Denumerator layout
+<br> 미분을 하는 변수를 기준으로 결과의 형태를 표기
+<br> => 핵심은, 의도한 미분을 수행했을 때 결과값의 차원
 
 
 
