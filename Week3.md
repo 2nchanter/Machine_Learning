@@ -88,6 +88,7 @@
 ## 17.수학적 개념 이해 - Matrix 미분의 회귀분석에의 활용
 ### 회귀분석에 적용
 <img width="700" src="https://user-images.githubusercontent.com/89369520/132358654-7e9a8a2f-88d4-4bb3-8811-0f9e3ed50bc2.png">
+<img width="700" src="https://user-images.githubusercontent.com/89369520/132362706-2f54a668-786d-40f4-a257-4460df045b91.png">
 
 - `모델` : y = Xβ + ε
 <br> 이 matrix 형태는, n개의 관측치가 linear form 모델을 따른다는 것을 한꺼번에 표현한 것.
@@ -98,7 +99,5 @@
 <br> R(β)가 크다/작다 -> 오차가 크다/작다
 - 오차제곱합을 `최소로하는 β^`를 구하고자 함.
 <br> R(β)를 미분해서 0이 되는 값을 구한다.
-- β는 column vector.
-
-
-
+- β는 column vector. -> β^ 결과를 column vector 형태로 얻고 싶어서 미분을 βT 형태(row vector)로 했다.
+- 미분한 함수를 0이 되게 하는 해를 찾음.
