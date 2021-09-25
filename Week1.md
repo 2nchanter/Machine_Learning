@@ -148,5 +148,3 @@ Flexibility - 복잡도, 얼마나 이 모양이 복잡한가.
 
 >Q2. Training-Validation-Test를 Random하게 가져가면 Overfitting되도 여기저기 잘맞는거 아닐까?
 <br>A2. 완벽한 random은 없으며, 표본은 모집단을 대표할 수가 없다. 
-
-
