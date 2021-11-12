@@ -18,7 +18,7 @@
 - a. `Filter`
 <br> Objective function은 classifier와 독립적이며, class 간 거리나, 통계적 의존성 등만을 고려한다.
 <br> 속도는 빠르지만, 함수가 단조로워 높은 성능을 기대하기는 어렵다.
-- b. `Wrapper`
+- b. `Wrapper` (아래 예시들은 대부분 Wrapper 방식으로 진행됨)
 <br> Objective function은 classification algorithm을 사용하며, predictive accuracy로 판단한다.
 <br> 속도는 느리지만, classifier에 fit하다.
 
@@ -53,10 +53,15 @@
 - ex) L > R 일 경우,
 <br> Empty subset에서 시작하며, L개 추가 - R개 제거 과정을 반복한다.
 
-#### ㄴ
+#### `Sequential Floating Selection`
+##### Sequential Floating Forward Selection (`SFFS`)
+- Empty subset에서 시작한다.
+- Forward 진행하여 feature가 추가될 때, 추가된 feature 외 다른 것을 제거하고 더 좋은 성능의 subset이 있는지 비교한다. 계속 backward 검증하다가 더 optimal한 subset이 없다면 다시 forward 진행한다.
 
-
-
+##### Sequential Floating Backward Selection (`SFBS`)
+- Full subset에서 시작한다.
+- Backward 진행하여 feature가 제거될 때, 제거된 feature외 다른 것을 추가하고 더 좋은 성능의 subset이 있는지 비교한다. 계속 foward 검증하다가 더 optimal한 subset이 없다면 다시 backward 진행한다.
+<br><img width="500" src="https://user-images.githubusercontent.com/89369520/141403008-8a1bde7a-bdc3-49d9-abfc-7e44e625ef0b.png">
 
 ### 2. Linear Transformation
 #### Feature Extraction
