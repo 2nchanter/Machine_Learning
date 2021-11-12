@@ -22,9 +22,22 @@
 <br> Objective function은 classification algorithm을 사용하며, predictive accuracy로 판단한다.
 <br> 속도는 느리지만, classifier에 fit하다.
 
-#### Naive search
-- performance 순서대로 기능 정렬상위 m개 기능 선택
-• 단, 특징 상관관계(또는 의존성)는 고려되지 않는다.
+#### `Naive search`
+- performance 순서대로 기능 정렬한 뒤, `상위 m개 Feature 선택`한다.
+- 단, feature correlation(or dependence)는 고려되지 않는다.
+
+#### Sequential Forward Selection ('SFS')
+- 과정
+<br> 1. Empty subset에서 시작
+<br> 2. 1개 추가했을때 가장 좋은 성능인 feature를 찾음
+<br> 3. subset 집합에 포함시킴
+<br> 4. 2번으로 감 (optimal일 때까지 반복)
+- optimal subset이 작을 때 우수한 성능을 보이며, 단점으로 한번 추가한 feature는 제거할 수 없다.
+
+- 
+
+
+
 
 ### 2. Linear Transformation
 #### Feature Extraction
