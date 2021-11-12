@@ -26,15 +26,34 @@
 - performance 순서대로 기능 정렬한 뒤, `상위 m개 Feature 선택`한다.
 - 단, feature correlation(or dependence)는 고려되지 않는다.
 
-#### Sequential Forward Selection ('SFS')
+#### Sequential Forward Selection (`SFS`)
 - 과정
 <br> 1. Empty subset에서 시작
 <br> 2. 1개 추가했을때 가장 좋은 성능인 feature를 찾음
-<br> 3. subset 집합에 포함시킴
+<br> 3. 해당 feature를 집합에 포함시킨 subset을 채택
 <br> 4. 2번으로 감 (optimal일 때까지 반복)
 - optimal subset이 작을 때 우수한 성능을 보이며, 단점으로 한번 추가한 feature는 제거할 수 없다.
 
-- 
+#### Sequential Backward Selection (`SBS`)
+- 과정
+<br> 1. Full subset에서 시작
+<br> 2. 1개 제거했을때 가장 좋은 성능인 feature를 찾음
+<br> 3. 해당 feature를 집합에서 제거시킨 subset을 채택
+<br> 4. 2번으로 감 (optimal일 때까지 반복)
+- optimal subset이 클 때 우수한 성능을 보이며, 단점으로 한번 제거한 feature는 추가할 수 없다.
+
+#### Bidirectional Search (`BDS`)
+- SFS와 SBS를 같이 사용한다.
+<br> SFS에서 선택한 Feature는 SBS에서 제거하지 않으며,
+<br> SBS에 제거한 Feature는 SFS에서 선택하지 않는다.
+
+#### Plus-L Minus-R Selection (`LRS`)
+- BDS와 같이 같이 사용하는데, 계수가 L과 R로 다르다.
+- 단점은 case마다, L 및 R의 최적값을 예측할 방법이 없다. (heuristics)
+- ex) L > R 일 경우,
+<br> Empty subset에서 시작하며, L개 추가 - R개 제거 과정을 반복한다.
+
+#### ㄴ
 
 
 
