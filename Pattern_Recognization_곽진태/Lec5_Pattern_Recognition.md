@@ -64,16 +64,18 @@
 
 ## 2. Linear Transformation
 ### Feature Extraction
-- 
+- x에 W를 곱해서 Rd를 Rd'으로 차원을 낮춰보자.
+1. Principal Component Anaiysls, `주 성분 분석(PCA)`
+<br> data를 가장 잘 나타내는 것 찾기
+2. Linear Discriminant Analysis, `선형 판별 분석(LDA)`
+<br> 데이터를 가장 잘 구분하는 것 찾기
 
--• 두 가지 고전적인 접근방식은 다음과 같다.
-– 주성분 분석(PCA): 최소 제곱 방식으로 데이터를 가장 잘 나타내는 투영법 찾기
-– Linear Discriminant Analysis, 선형 판별 분석(LDA)
-<br> 최소 제곱 방식으로 데이터를 가장 잘 구분하는 투영법 찾기
+## 1. Principal Component Analysis
+### `PCA, 주 성분 분석`
+- 아이디어 : 저 차원 공간에서 가장 정확한 데이터 표현 찾기
+- Data의 variance가 가장 잘 표현되는, 가장 큰 방향으로 projection 하는 것이 좋다.
+<br> projection 후 좌표계를 변환한다. 또한 새 데이터 y의 Var이 이전 데이터 x의 var와 동일하다.
 
-
-## Principal Component Analysis
-### `PCA, 주 성분 분석
 
 
 
