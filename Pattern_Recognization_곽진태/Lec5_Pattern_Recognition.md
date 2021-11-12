@@ -87,9 +87,9 @@
 - 차원 𝑚 < d를 갖는 부분공간 subspace W에서 D의 가장 정확한 표현을 찾는다.
 - 행렬이란 선형변환이고, 하나의 벡터 공간을 선형적으로 다른 벡터 공간으로 mapping하는 기능을 가진다. 따라서 W에 있는 어떠한 벡터도 Σaiei로 쓸 수 있으며, x1은 Σa1iei 로 쓸 수 있다.(a11e1+a12e2이므로) 그래서 재구성에서 오는 오류의 합을 다음과 같이 쓸 수 있다.
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141438774-c5e81119-884e-45c3-863c-3a1c9dd046c7.png">
-- 오류의 총 합은 다음과 같다.
+- 전체 에러는 다음과 같으며, 최소화 하는데 목적이 있다. (여기서 S는 Covariance matrix에서 n-1이 곱해진 값이다.)
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141438984-d3307985-857a-49d7-9e19-1375aca105dc.png">
-- 여기서 S는 
+- 
 
 
 
