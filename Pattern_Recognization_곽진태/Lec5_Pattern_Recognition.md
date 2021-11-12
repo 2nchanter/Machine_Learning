@@ -79,7 +79,19 @@
 
 ### Shift by mean
 - data에서 sample mean 빼기
-<br> 
+<br><img width="200" src="https://user-images.githubusercontent.com/89369520/141425769-56324cb6-401e-49be-8012-f43086c22da9.png">
+<br>PCA는 분산으로 이야기 하므로 data의 값이 얼마나 큰지는 의미없다. 0, 0으로 줌심을 옮겨주자.
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141425448-8b3f7227-cd49-4127-8f01-5436a4a7aff9.png">
+
+### Derivation
+- 차원 𝑚 < d를 갖는 부분공간 subspace W에서 D의 가장 정확한 표현을 찾는다.
+- 행렬이란 선형변환이고, 하나의 벡터 공간을 선형적으로 다른 벡터 공간으로 mapping하는 기능을 가진다. 따라서 W에 있는 어떠한 벡터도 Σaiei로 쓸 수 있으며, x1은 Σa1iei 로 쓸 수 있다.(a11e1+a12e2이므로) 그래서 재구성에서 오는 오류의 합을 다음과 같이 쓸 수 있다.
+<br><img width="300" src="https://user-images.githubusercontent.com/89369520/141438774-c5e81119-884e-45c3-863c-3a1c9dd046c7.png">
+- 오류의 총 합은 다음과 같다.
+<br><img width="300" src="https://user-images.githubusercontent.com/89369520/141438984-d3307985-857a-49d7-9e19-1375aca105dc.png">
+- 여기서 S는 
+
+
+
 
 
