@@ -75,7 +75,11 @@
 - 아이디어 : 저 차원 공간에서 가장 정확한 데이터 표현 찾기
 - Data의 variance가 가장 잘 표현되는, 가장 큰 방향으로 projection 하는 것이 좋다.
 <br> projection 후 좌표계를 변환한다. 또한 새 데이터 y의 Var이 이전 데이터 x의 var와 동일하다.
+<br><img width="300" src="https://user-images.githubusercontent.com/89369520/141425347-84d88d9e-2e2e-4b5f-b234-8620754085ce.png">
 
-
+### Shift by mean
+- data에서 sample mean 빼기
+<br> 
+<br><img width="300" src="https://user-images.githubusercontent.com/89369520/141425448-8b3f7227-cd49-4127-8f01-5436a4a7aff9.png">
 
 
