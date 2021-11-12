@@ -53,12 +53,11 @@
 - ex) L > R 일 경우,
 <br> Empty subset에서 시작하며, L개 추가 - R개 제거 과정을 반복한다.
 
-### `Sequential Floating Selection`
-#### Sequential Floating Forward Selection (`SFFS`)
+### `Sequential Floating Forward Selection` (`SFFS`)
 - Empty subset에서 시작한다.
 - Forward 진행하여 feature가 추가될 때, 추가된 feature 외 다른 것을 제거하고 더 좋은 성능의 subset이 있는지 비교한다. 계속 backward 검증하다가 더 optimal한 subset이 없다면 다시 forward 진행한다.
 
-#### Sequential Floating Backward Selection (`SFBS`)
+### `Sequential Floating Backward Selection` (`SFBS`)
 - Full subset에서 시작한다.
 - Backward 진행하여 feature가 제거될 때, 제거된 feature외 다른 것을 추가하고 더 좋은 성능의 subset이 있는지 비교한다. 계속 foward 검증하다가 더 optimal한 subset이 없다면 다시 backward 진행한다.
 <br><img width="500" src="https://user-images.githubusercontent.com/89369520/141403008-8a1bde7a-bdc3-49d9-abfc-7e44e625ef0b.png">
@@ -66,6 +65,12 @@
 ## 2. Linear Transformation
 ### Feature Extraction
 - 
+
+-• 두 가지 고전적인 접근방식은 다음과 같다.
+– 주성분 분석(PCA): 최소 제곱 방식으로 데이터를 가장 잘 나타내는 투영법 찾기
+– Linear Discriminant Analysis, 선형 판별 분석(LDA)
+<br> 최소 제곱 방식으로 데이터를 가장 잘 구분하는 투영법 찾기
+
 
 ## Principal Component Analysis
 ### `PCA, 주 성분 분석
