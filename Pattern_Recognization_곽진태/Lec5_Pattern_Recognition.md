@@ -1,6 +1,6 @@
 # Pattern Recognition
 ## Dimensionality Reduction, 차원 축소
-### Curse odimensionality, 차원의 저주
+### Curse dimensionality, 차원의 저주
 - feature가 늘어날 수록 성능은 좋아지지만, 더 이상 추가해도 성능이 급감하는 곳이 있다. training data에만 overfitting되고, complexity도 높아지기 때문이다.
 - irrelevant(무관계)하거나 redundant(중복)한 feature들을 잘 골라내야 한다.
 
@@ -90,6 +90,25 @@
 - 전체 에러는 다음과 같으며, 최소화 하는데 목적이 있다. (여기서 S는 Covariance matrix에서 n-1이 곱해진 값이다.)
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141438984-d3307985-857a-49d7-9e19-1375aca105dc.png">
 - 
+
+
+#### 고유벡터(Eigenvectors)와 주성분분석(PCA), 공분산 행렬(Covariance Matrix) 및 엔트로피(Entropy)
+1. 고유벡터
+행렬이 작용하는 힘의 방향
+행렬을 분해(decomposition)하는데 사용된다.
+
+2. 주성분분석, PCA
+고차원 데이터에서 패턴을 찾는 도구
+데이터를 인공신경망에 입력하기 전의 전처리과정에서 
+
+
+
+
+
+
+
+
+
 
 
 
