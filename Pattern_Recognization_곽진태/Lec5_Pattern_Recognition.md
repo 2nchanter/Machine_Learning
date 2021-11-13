@@ -91,10 +91,8 @@
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141609581-c70b1527-4685-4275-9864-53a5b36f3b92.png">
 - 앞쪽 data는 constant하므로, 전체 에러를 최소화하는 방법은 minus이후의 식을 maximization 하는 것이다. 식을 풀면 다음과 같은 해를 가진다.
 <br><img width="150" src="https://user-images.githubusercontent.com/89369520/141609626-b2e1dd35-bb06-423c-bd79-5b1f54d68338.png">
-- λi를 고유값(eigenvalue), ei를 고유벡터 
-- ㄹㅏ고 
-
-- 
+- λi를 고유값(eigenvalue), ei를 고유벡터(eigenvector)라 한다.
+- J를 
 
 
 
