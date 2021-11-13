@@ -12,7 +12,7 @@
 1. appropriate `subset`을 찾아내자.
 2. `Transforming`(Combining)하자.
 
-## 1. Feature Selection
+## 1. Feature Selection (Linear Dimensional Reduction)
 ### Feature Selection
 - Exhaustive search는 impractical하므로, 크게 아래 두가지 방법이 있다.
 - a. `Filter`
@@ -62,7 +62,7 @@
 - Backward 진행하여 feature가 제거될 때, 제거된 feature외 다른 것을 추가하고 더 좋은 성능의 subset이 있는지 비교한다. 계속 foward 검증하다가 더 optimal한 subset이 없다면 다시 backward 진행한다.
 <br><img width="500" src="https://user-images.githubusercontent.com/89369520/141403008-8a1bde7a-bdc3-49d9-abfc-7e44e625ef0b.png">
 
-## 2. Linear Transformation
+## 2. Linear Transformation (Non-Linear Demensional Reduction)
 ### Feature Extraction
 - x에 W를 곱해서 Rd를 Rd'으로 차원을 낮춰보자.
 1. Principal Component Anaiysls, `주 성분 분석(PCA)`
@@ -87,14 +87,23 @@
 - 차원 𝑚 < d를 갖는 부분공간 subspace W에서 D의 가장 정확한 표현을 찾는다.
 - 행렬이란 선형변환이고, 하나의 벡터 공간을 선형적으로 다른 벡터 공간으로 mapping하는 기능을 가진다. 따라서 W에 있는 어떠한 벡터도 Σaiei로 쓸 수 있으며, x1은 Σa1iei 로 쓸 수 있다.(a11e1+a12e2이므로) 그래서 재구성에서 오는 오류의 합을 다음과 같이 쓸 수 있다.
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141438774-c5e81119-884e-45c3-863c-3a1c9dd046c7.png">
-- 전체 에러는 다음과 같으며, 최소화 하는데 목적이 있다. (여기서 S는 Covariance matrix에서 n-1이 곱해진 값이다.)
+- 전체 에러는 다음과 같으며, 최소화 하는데 목적이 있다.
+<br>여기서 S는 Covariance matrix에서 n-1이 곱해진 값이다.(분산에서 나눠진 n-1)
 <br><img width="300" src="https://user-images.githubusercontent.com/89369520/141609581-c70b1527-4685-4275-9864-53a5b36f3b92.png">
 - 앞쪽 data는 constant하므로, 전체 에러를 최소화하는 방법은 minus이후의 식을 maximization 하는 것이다. 식을 풀면 다음과 같은 해를 가진다.
 <br><img width="150" src="https://user-images.githubusercontent.com/89369520/141609626-b2e1dd35-bb06-423c-bd79-5b1f54d68338.png">
 - λi를 고유값(eigenvalue), ei를 고유벡터(eigenvector)라 한다.
-- J를 
+- J를 minimization하기 위해서 λi값이 가장 큰 eigenvector를 골라야 한다.
+<br><img width="400" src="https://user-images.githubusercontent.com/89369520/141609730-243fa545-73b5-4c63-bcf7-95c829619a10.png">
+- First, Second Principle Component
+<br><img width="300" src="https://user-images.githubusercontent.com/89369520/141609911-38572cd6-c3ee-4edd-9887-64605981090f.png">
 
+### Approximation
+- Eigenvector를 Eigenvalue 값의 내림차순으로 정렬한 뒤, 가장 큰 몇개만 가져와서 사용한다. (몇개만 가져와도 충분히 Variance를 담을 수 있다)
+<br><img width="300" src="https://user-images.githubusercontent.com/89369520/141610008-c6040b6f-bca9-4c85-a27f-1104fce81bcb.png">
 
+### PCA Steps 요약 !
+-<img width="400" src="https://user-images.githubusercontent.com/89369520/141610052-88f73766-5d5d-4854-92b2-21cd5d07dbc2.png">
 
 ### 추가검색!
 #### 고유벡터(Eigenvectors)와 주성분분석(PCA), 공분산 행렬(Covariance Matrix) 및 엔트로피(Entropy)
@@ -127,17 +136,3 @@
 - 고유값은 각 고유벡터에 해당하는 상관계수일 뿐이다. 우리가 다루는 행렬이 공분산행렬일 경우, 그 행렬의 고유값은 각 축에 대한 공분산 값이 된다. 그리고 고유값이 큰 순서대로 고유벡터를 정렬하면 결과적으로 중요한 순서대로 주성분을 구하는 것이 된다.
 
 - 고차원 변수의 경우 시각화하기 어렵기 때문에 변수의 상관 관계를 파악하기 어렵다. 이럴때 공분산을 이용하면 각 변수의 값과 부호를 통해 변수의 관계를 쉽게 알 수 있다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
