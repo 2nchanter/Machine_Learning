@@ -1,4 +1,3 @@
-# Pattern Recognition
 ## Dimensionality Reduction, 차원 축소
 ### Curse dimensionality, 차원의 저주
 - feature가 늘어날 수록 성능은 좋아지지만, 더 이상 추가해도 성능이 급감하는 곳이 있다. training data에만 overfitting되고, complexity도 높아지기 때문이다.
