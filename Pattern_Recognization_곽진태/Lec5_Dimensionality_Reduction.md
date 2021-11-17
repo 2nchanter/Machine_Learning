@@ -1,14 +1,11 @@
 ## Contents
-[Dimentionality Reduction](#Dimensionality-Reduction-차원-축소)
-
-Lec5 : Dimentionality Reduction
-- Dimentionality Reduction
+- [Dimentionality Reduction](#Dimensionality-Reduction-차원-축소)
 <br> - `Curse of dimensionality`
-- Feature Selection
+- [Feature Selection](#Feature-Selection-Linear-Dimensional-Reduction)
 <br> - Filter Method, `Wrapper Method`
 <br> - Naive search, Sequence Forward Selection(SFS), SBS, Bidirectional Search(BDS), Plus-L Minus-R Selection(LRS), `SFFS`, `SFBS`
-- Linear Transformation
-- `Principal Component Analysis(PCA)`
+- [Linear Transformation](#Linear-Transformation-Non-Linear-Demensional-Reduction)
+- [`Principal Component Analysis(PCA)`](#Principal-Component-Analysis)
 
 ## Dimensionality Reduction, 차원 축소
 ### Curse dimensionality, 차원의 저주
