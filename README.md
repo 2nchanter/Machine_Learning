@@ -1,5 +1,14 @@
 ## Machine_learning
 
+### Business_Analytics_정태수
+#### 1_1_선형대수
+#### 1_2_최적화
+#### 2_선형회귀분석
+#### 3_로지스틱_회귀분석
+#### 4_정규화_모델
+#### 5_의사결정나무
+
+
 ### Pattern_Recognization_곽진태
 #### Lec1 : Fundamentals
 - Fundamental
