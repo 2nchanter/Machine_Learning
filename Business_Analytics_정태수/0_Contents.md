@@ -1,8 +1,13 @@
 ### Business_Analytics_정태수
-
-#### 1_1_선형대수
-#### 1_2_최적화
-#### 2_선형회귀분석
-#### 3_로지스틱_회귀분석
-#### 4_정규화_모델
-#### 5_의사결정나무
+#### [1_1_선형대수](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/1_1_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98.md#%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98)
+<br> - 
+#### [1_2_최적화](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/1_2_%EC%B5%9C%EC%A0%81%ED%99%94.md#%EC%B5%9C%EC%A0%81%ED%99%94%EC%99%80-%EC%88%98%EB%A6%AC%EA%B3%84%ED%9A%8D%EB%B2%95)
+<br> - 
+#### [2_선형회귀분석](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/2_%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80%EB%B6%84%EC%84%9D.md#%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80%EB%B6%84%EC%84%9D)
+<br> - 
+#### [3_로지스틱_회귀분석](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/3_%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1_%ED%9A%8C%EA%B7%80%EB%B6%84%EC%84%9D.md#%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1-%ED%9A%8C%EA%B7%80%EB%B6%84%EC%84%9D)
+<br> - 
+#### [4_정규화_모델](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/4_%EC%A0%95%EA%B7%9C%ED%99%94_%EB%AA%A8%EB%8D%B8.md#%EC%A2%8B%EC%9D%80-%EB%AA%A8%EB%8D%B8%EC%9D%B4%EB%9E%80)
+<br> - 
+#### [5_의사결정나무]()
+<br> - 
