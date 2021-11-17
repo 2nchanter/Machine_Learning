@@ -1,4 +1,3 @@
-### Pattern_Recognization_곽진태
 #### Lec1 : Fundamentals
 - Fundamental
 - Terminology
