@@ -1,5 +1,5 @@
 ## Contents
-- [Dimentionality Reduction](# Dimensionality Reduction, 차원 축소)
+[Dimentionality Reduction](#Dimensionality-Reduction-차원-축소)
 
 Lec5 : Dimentionality Reduction
 - Dimentionality Reduction
