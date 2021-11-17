@@ -40,3 +40,11 @@
 <br> - Naive search, Sequence Forward Selection(SFS), SBS, Bidirectional Search(BDS), Plus-L Minus-R Selection(LRS), `SFFS`, `SFBS`
 - Linear Transformation
 - `Principal Component Analysis(PCA)`
+
+- [Dimentionality Reduction](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/Lec5_Dimensionality_Reduction.md#dimensionality-reduction-%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C)
+<br> - `Curse of dimensionality`
+- [Feature Selection](#1-Feature-Selection-Linear-Dimensional-Reduction)
+<br> - Filter Method, `Wrapper Method`
+<br> - Naive search, Sequence Forward Selection(SFS), SBS, Bidirectional Search(BDS), Plus-L Minus-R Selection(LRS), `SFFS`, `SFBS`
+- [Linear Transformation](#2-linear-transformation-non-linear-demensional-reduction)
+- [`Principal Component Analysis(PCA)`](#1-Principal-Component-Analysis)
