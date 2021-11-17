@@ -1,10 +1,10 @@
 ## Contents
 - [Dimentionality Reduction](#Dimensionality-Reduction-차원-축소)
 <br> - `Curse of dimensionality`
-- [Feature Selection](#1_Feature-Selection-Linear-Dimensional-Reduction)
+- [Feature Selection](#1-Feature-Selection-Linear-Dimensional-Reduction)
 <br> - Filter Method, `Wrapper Method`
 <br> - Naive search, Sequence Forward Selection(SFS), SBS, Bidirectional Search(BDS), Plus-L Minus-R Selection(LRS), `SFFS`, `SFBS`
-- [Linear Transformation](#2_Linear-Transformation-Non-Linear-Demensional-Reduction)
+- [Linear Transformation](#2-linear-transformation-non-linear-demensional-reduction)
 - [`Principal Component Analysis(PCA)`](#1-Principal-Component-Analysis)
 
 ## Dimensionality Reduction, 차원 축소
