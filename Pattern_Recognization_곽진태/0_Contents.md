@@ -34,14 +34,6 @@
 - Gabor filter
 - Local Binary Pattern(LBP)
 #### Lec5 : Dimentionality Reduction
-- Dimentionality Reduction
-<br> - `Curse of dimensionality`
-- Feature Selection
-<br> - Filter Method, `Wrapper Method`
-<br> - Naive search, Sequence Forward Selection(SFS), SBS, Bidirectional Search(BDS), Plus-L Minus-R Selection(LRS), `SFFS`, `SFBS`
-- Linear Transformation
-- `Principal Component Analysis(PCA)`
-
 - [Dimentionality Reduction](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/5_Dimensionality_Reduction.md#dimensionality-reduction-%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C)
 <br> - `Curse of dimensionality`
 - [Feature Selection](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/5_Dimensionality_Reduction.md#1-feature-selection-linear-dimensional-reduction)
