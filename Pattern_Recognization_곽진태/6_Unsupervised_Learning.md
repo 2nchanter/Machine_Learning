@@ -12,12 +12,14 @@
 <br> - B. `Objective function` : clustering이 잘 되었는지 판단하는 목적함수.
 <br> - C. `Algorithm` : clustering 해줌
 - 일단 특정한 갯수로 fix하고 시작한다. 비지도학습은 data를 잘 모르기 때문에 이걸 정할 수가 없다.
+
 #### A. Proximity measure
 - Euclidean distance : 직선거리, 최단거리
 - Manhattan (city block) distance : 각 축에서 차의 합
 - Chebyshev distance : 각 축에서 차이 중 가장 큰 값
 - Cosine similarity : 원점에서부터 두 data까지 그은 선 사이의 각도
 - Correlation coefficient : 상관계수(높을수록 비슷)
+
 #### B. Objective function
 - Sum of Squared Errors(SSE)
 <br> - cluster 내의 |data - 평균| 제곱의 합
@@ -25,13 +27,15 @@
 <br> - 하지만 SSE는 동일한 크기의 군집을 선호하기 때문에, 자연 군집의 크기가 매우 다른 경우에는 적절하지 않다.
 <br> - <img width="250" src="https://user-images.githubusercontent.com/89369520/142587203-39c282e4-fe7c-4474-8898-6a36890a28b1.png">
 <br> - <img width="250" src="https://user-images.githubusercontent.com/89369520/142587323-26d457ee-7dff-4f7d-ab7c-24a24753a572.png">
+
 #### C. Algorithm
 - 좋은 clustering을 Exhaustive search하는 것은 불가능하다.
 - Iterative algorithm, 반복 알고리즘
 <br> - 먼저 의미있는 구분점을 찾는다.(최적의 정답이 아님)
 <br> - 반복 : objective function이 개선되는 방향으로 sample을 다른 cluster로 하나씩 계속 옮긴다.
 <br> - 옮기는 방법은 뭐가 있을까?
-#### C-1. K-means Clustering
+
+#### C-1. `K-means Clustering`
 ##### Sequence
 - 0. Object Function은 SSE이며, cluster 내 data 수를 임의로 k개로 지정해놓고 시작.
 - 1. Initialize
@@ -48,7 +52,7 @@
 - <img width="300" src="https://user-images.githubusercontent.com/89369520/142591005-27da0606-3141-4463-b90b-76b4da3780cd.png">
 ##### Global minimum?
 - 각 iteration에서 더 나은 cluster를 찾는 효과적인 algorithm이다.
-<br> 하지만 start point에 따라서 항상 Global minimum(최적해)가 아닌 Local minimum을 찾아줄 수도 있다는 단점이 있다.
+<br> 하지만 start point에 따라서 항상 Global minimum(최적해)가 아닌 `Local minimum`을 찾아줄 수도 있다는 단점이 있다.
 
 #### Hierarchical Clustering
 - 
