@@ -1,10 +1,12 @@
 
 ### Pattern_Recognization_곽진태
+
 #### Lec1 : Fundamentals
 - Fundamental
 - Terminology
 - How Pattern Recognition works?
 <br> - `Design cycle`
+
 #### Lec2 : Desicion Theory
 - Bayesian Decision Theory
 <br> - only prior, + posterior, `Bayes' Rule`
@@ -14,6 +16,7 @@
 - Performance Evaluation
 <br> - Classification Errors
 <br> - `ROC curve, AUC`
+
 #### Lec3 : SVM
 - Linear Discriminant Function
 - `Support Vector Machine`
@@ -22,6 +25,7 @@
 <br> - Slack Variables
 <br> - Non-linear Mapping
 <br> - XOR Problen (다시 듣기)
+
 #### Lec4 : Feature Extraction
 - `Statistical features`
 <br> - Skewness, Kurtosis
@@ -33,6 +37,7 @@
 - Fourier Transform
 - Gabor filter
 - Local Binary Pattern(LBP)
+- 
 #### Lec5 : Dimentionality Reduction
 - [Dimentionality Reduction](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/5_Dimensionality_Reduction.md#dimensionality-reduction-%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C)
 <br> - `Curse of dimensionality`
@@ -41,3 +46,10 @@
 <br> - Naive search, Sequence Forward Selection(SFS), SBS, Bidirectional Search(BDS), Plus-L Minus-R Selection(LRS), `SFFS`, `SFBS`
 - [Linear Transformation](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/5_Dimensionality_Reduction.md#2-linear-transformation-non-linear-demensional-reduction)
 - [`Principal Component Analysis(PCA)`](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/5_Dimensionality_Reduction.md#1-principal-component-analysis)
+
+#### Lec6 : Unsupervised Learning
+- [Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#clustering)
+<br> - Proximity measure, Object function, Algorithm
+- [K-means Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#c-1-k-means-clustering)
+<br> - Sequence, local minimum
+- [Hierarchical Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#hierarchical-clustering)
