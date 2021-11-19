@@ -32,6 +32,7 @@
 <br> - 반복 : objective function이 개선되는 방향으로 sample을 다른 cluster로 하나씩 계속 옮긴다.
 <br> - 옮기는 방법은 뭐가 있을까?
 #### C-1. K-means Clustering
+##### Sequence
 - 0. Object Function은 SSE이며, cluster 내 data 수를 임의로 k개로 지정해놓고 시작.
 - 1. Initialize
 <br> 1-1. k cluster의 center를 cluster 내에 있는 data중 임의로 하나 선택한다.
@@ -42,7 +43,13 @@
 - 3. 재지정된 center point(mean)에 가까운 data들로 re-clustering 한다.
 <br> <img width="150" src="https://user-images.githubusercontent.com/89369520/142590231-7d9b9bcb-bbb1-4e55-943e-372780a748d0.png">
 - 4. 3번에서 cluster 구성이 변화했다면, 2번으로 돌아가 반복한다.
-- 
+- END. Iterate하다보면 변하지 않는 cluster가 만들어진다.
+##### Does it work?
+- <img width="300" src="https://user-images.githubusercontent.com/89369520/142591005-27da0606-3141-4463-b90b-76b4da3780cd.png">
+##### Global minimum?
+- 각 iteration에서 더 나은 cluster를 찾는 효과적인 algorithm이다.
+<br> 하지만 start point에 따라서 항상 Global minimum(최적해)가 아닌 Local minimum을 찾아줄 수도 있다는 단점이 있다.
+
 #### Hierarchical Clustering
 - 
 
