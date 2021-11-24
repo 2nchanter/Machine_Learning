@@ -4,6 +4,7 @@
 - `Unsupervised learning, 비지도학습` : Only data, No label
 <br> - 왜 하는가? class 수도 모르고, 알아도 labeling 해야 하므로. 데이터 구조에 대한 통찰력 확보
 
+### Partitioning Clustering, 분할 군집화
 #### Clustering
 - 데이터 내에서 자연 군집 찾기
 - Cluster 내에 있는 data point들은 거리가 가까워야하고, 밖에 있다면 멀어야 좋은 cluster.
@@ -54,7 +55,7 @@
 - 각 iteration에서 더 나은 cluster를 찾는 효과적인 algorithm이다.
 <br> 하지만 start point에 따라서 항상 Global minimum(최적해)가 아닌 `Local minimum`을 찾아줄 수도 있다는 단점이 있다.
 
-#### Hierarchical Clustering
+#### Hierarchical Clustering, 계층적 군집화
 - 
 
 
