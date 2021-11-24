@@ -62,6 +62,10 @@
 - Explanatory modeling, Predictive modeling
 - Expected MSE
 - Bias, Variance
+- regularization 모델
+<br> - Ridge, Lasso, Elastic Net
 
-### [5_의사결정나무]()
-<br> - 
+### [5_의사결정나무](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/5_%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%EB%82%98%EB%AC%B4.md#decision-tree)
+- decision tree 개요, Recursive partitioning, Pruning the tree
+- impurity 지표
+<br> - Entropy, Gini index
