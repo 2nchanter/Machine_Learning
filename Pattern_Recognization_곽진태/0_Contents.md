@@ -48,9 +48,9 @@
 - [`Principal Component Analysis(PCA)`](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/5_Dimensionality_Reduction.md#1-principal-component-analysis)
 
 #### Lec6 : Unsupervised Learning
-- [Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#clustering)
-<br> - Proximity measure, Object function, Algorithm
-- [`K-means Clustering`](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#c-1-k-means-clustering)
+- Partitioning Clustering
+<br> - Clustering : Proximity measure, Object function, Algorithm
+<br> - [`K-means Clustering`](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#c-1-k-means-clustering)
 <br> - Sequence, local minimum
 - [Hierarchical Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#hierarchical-clustering)
 <br> - Agglomerative, Divisive
