@@ -53,3 +53,4 @@
 - [`K-means Clustering`](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#c-1-k-means-clustering)
 <br> - Sequence, local minimum
 - [Hierarchical Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#hierarchical-clustering)
+<br> - Agglomerative, Divisive
