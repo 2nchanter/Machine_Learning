@@ -56,14 +56,14 @@
 <br> 각 iteration에서 더 나은 cluster를 찾는 효과적인 algorithm이다.
 <br> 하지만 start point에 따라서 항상 Global minimum(최적해)가 아닌 `Local minimum`을 찾아줄 수도 있다는 단점이 있다.
 
-### Hierarchical Clustering, 계층적 군집화
+## Hierarchical Clustering, 계층적 군집화
 - Approaches
 <br> 1. Agglomerative (bottom up)
 <br> - n개의 singleton cluster에서 시작하여, 가장 유사한 cluster를 병합하여 계층을 구성
 <br> 2. Divisive (top down)
 <br> - 전체를 하나의 cluster로 시작하며, worst cluster를 분할하며 계층을 구성
 
-#### Agglomerative
+### Agglomerative
 - 가장 가까운 singleton을 찾아서 merge.
 - Distance measure
 <br> - d min, max, avg, mean
