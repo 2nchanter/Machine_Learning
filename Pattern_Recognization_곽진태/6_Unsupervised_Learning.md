@@ -25,8 +25,8 @@
 <br> - cluster 내의 |data - 평균| 제곱의 합
 <br> - cluster의 형태가 circle or ellipses일 때 용이하다.
 <br> - 하지만 SSE는 동일한 크기의 군집을 선호하기 때문에, 자연 군집의 크기가 매우 다른 경우에는 적절하지 않다.
-<br> - <img width="250" src="https://user-images.githubusercontent.com/89369520/142587203-39c282e4-fe7c-4474-8898-6a36890a28b1.png">
-<br> - <img width="250" src="https://user-images.githubusercontent.com/89369520/142587323-26d457ee-7dff-4f7d-ab7c-24a24753a572.png">
+<br> <img width="250" src="https://user-images.githubusercontent.com/89369520/142587203-39c282e4-fe7c-4474-8898-6a36890a28b1.png">
+<br> <img width="250" src="https://user-images.githubusercontent.com/89369520/142587323-26d457ee-7dff-4f7d-ab7c-24a24753a572.png">
 
 ### C. Algorithm
 - 좋은 clustering을 Exhaustive search하는 것은 불가능하다.
@@ -36,18 +36,18 @@
 <br> - 옮기는 방법은 뭐가 있을까?
 
 ### C-1. `K-means Clustering`
-- Sequence
-<br> 0. Object Function은 SSE이며, cluster 내 data 수를 임의로 k개로 지정해놓고 시작.
-<br> 1. Initialize
-<br> - 1-1. k cluster의 center를 cluster 내에 있는 data중 임의로 하나 선택한다.
-<br> - 1-2. 각 data를 가장 가까운 center에 할당하여 cluster를 구성한다.
+#### Sequence
+0. Object Function은 SSE이며, cluster 내 data 수를 임의로 k개로 지정해놓고 시작.
+1. Initialize
+<br> 1-1. k cluster의 center를 cluster 내에 있는 data중 임의로 하나 선택한다.
+<br> 1-2. 각 data를 가장 가까운 center에 할당하여 cluster를 구성한다.
 <br> <img width="150" src="https://user-images.githubusercontent.com/89369520/142590137-4bad5345-3595-474b-8dfd-9c9e3dc7ca86.png">
-<br> 2. cluster 내 data들의 평균을 구해서 새로운 center point를 지정한다.
+2. cluster 내 data들의 평균을 구해서 새로운 center point를 지정한다.
 <br> <img width="150" src="https://user-images.githubusercontent.com/89369520/142590209-14264f19-b585-4118-8725-281cb777c8e4.png">
-<br> 3. 재지정된 center point(mean)에 가까운 data들로 re-clustering 한다.
+3. 재지정된 center point(mean)에 가까운 data들로 re-clustering 한다.
 <br> <img width="150" src="https://user-images.githubusercontent.com/89369520/142590231-7d9b9bcb-bbb1-4e55-943e-372780a748d0.png">
-<br> 4. 3번에서 cluster 구성이 변화했다면, 2번으로 돌아가 반복한다.
-<br> END. Iterate하다보면 변하지 않는 cluster가 만들어진다.
+4. 3번에서 cluster 구성이 변화했다면, 2번으로 돌아가 반복한다.
+5. END. Iterate하다보면 변하지 않는 cluster가 만들어진다.
 
 - Does it work?
 <br> <img width="300" src="https://user-images.githubusercontent.com/89369520/142591005-27da0606-3141-4463-b90b-76b4da3780cd.png">
