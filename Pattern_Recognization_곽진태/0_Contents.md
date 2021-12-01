@@ -51,5 +51,5 @@
 - [Partitioning Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#partitioning-clustering-%EB%B6%84%ED%95%A0-%EA%B5%B0%EC%A7%91%ED%99%94)
 <br> - Clustering : Proximity measure, Object function, Algorithm
 <br> - `K-means Clustering` : Sequence, local minimum
-- [Hierarchical Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#hierarchical-clustering)
+- [Hierarchical Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#hierarchical-clustering-%EA%B3%84%EC%B8%B5%EC%A0%81-%EA%B5%B0%EC%A7%91%ED%99%94)
 <br> - Agglomerative, Divisive
