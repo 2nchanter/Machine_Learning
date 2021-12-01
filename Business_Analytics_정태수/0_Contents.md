@@ -66,6 +66,13 @@
 <br> - Ridge, Lasso, Elastic Net
 
 ### [5_의사결정나무](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/5_%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%EB%82%98%EB%AC%B4.md#decision-tree)
+#### decision tree : classification
 - decision tree 개요, Recursive partitioning, Pruning the tree
-- impurity 지표
-<br> - Entropy, Gini index
+- impurity 지표 - Entropy, Gini index
+- IG (Information Gain)
+- Pruning the tree(가지치기), Cost complexity(비용복잡도)
+
+#### decision tree : regression
+#### 분류모델 평가지표
+- Accuracy, Precision, Recall, Specificity, Type 1 Error, Type 2 Error, F1 Score
+- ROC, AUC
