@@ -55,10 +55,10 @@
 <br> - Agglomerative, Divisive
 
 #### Lec7 : ANN, CNN
-- ANN (Artificial Neural Networks)
+- [ANN (Artificial Neural Networks)](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/7_ANN_CNN.md#ann-artificial-neural-networks-%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D)
 <br> - Biological Inspiration, Perceptrons, Neural Networks
 <br> - Training Procedure, Gradient Descent, Activation Function ex) single layer, Multi layer
 <br> - cross entropy, Epoch, Batch, Iteration
-- CNN (Convolutional Neural Networks)
+- [CNN (Convolutional Neural Networks)](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/7_ANN_CNN.md#cnn-convolutional-neural-network-%EC%BB%A8%EB%B3%BC%EB%A3%A8%EC%85%98-%EC%8B%A0%EA%B2%BD%EB%A7%9D)
 <br> - Convolution, Pooling layer, ex)
 <br> - Transfer Learning, Summary
