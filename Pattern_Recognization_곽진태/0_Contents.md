@@ -56,11 +56,9 @@
 
 #### Lec7 : ANN, CNN
 - ANN (Artificial Neural Networks)
-<br> - Multi-layer Perceptrons, Feed foward, Backpropagation
+<br> - Biological Inspiration, Perceptrons, Neural Networks
 <br> - Training Procedure, Gradient Descent, Activation Function ex) single layer, Multi layer
 <br> - cross entropy, Epoch, Batch, Iteration
 - CNN (Convolutional Neural Networks)
 <br> - Convolution, Pooling layer, ex)
-<br> - Convolution vs Fully-connected Layers
-<br> - LeNet5, Alexnet, GoogleNet, Resnet, Densenet
-<br> - Transfer Learning
+<br> - Transfer Learning, Summary
