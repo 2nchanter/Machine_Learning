@@ -63,29 +63,29 @@
 - loss, Acc.
 <br> <img width="400" alt="스크린샷 2021-12-06 오후 12 22 20" src="https://user-images.githubusercontent.com/89369520/144782020-00bb0a0c-be1d-47e8-a828-6e6a035552e9.png">
 
-### CNN (convolutional Neural Network, 컨볼루션 신경망)
-#### Convolution
+## CNN (convolutional Neural Network, 컨볼루션 신경망)
+### Convolution
 - ex)
 <br> <img width="400" alt="스크린샷 2021-12-06 오후 12 25 58" src="https://user-images.githubusercontent.com/89369520/144782317-84cefa36-a34c-4ebd-a49e-65b34de104ba.png">
 <br> <img width="400" alt="스크린샷 2021-12-06 오후 12 28 22" src="https://user-images.githubusercontent.com/89369520/144782563-6f8fd235-9ac7-47d5-a885-888630f6e5f3.png">
 
-#### Pooling Layer
+### Pooling Layer
 - 이미지(또는 기능 표현)를 더 작고 관리하기 쉽게 만들기
 - 영상의 공간 크기 축소 및 매개 변수, 계산량 감소를 목적
 - Type : Max, Min, Avg, etc
 <br> <img width="400" alt="스크린샷 2021-12-06 오후 12 30 39" src="https://user-images.githubusercontent.com/89369520/144782736-414c4b8e-f23a-4f15-808a-e50532565771.png">
 
-#### CNN
+### CNN
 - ex)
 <br> <img width="400" alt="스크린샷 2021-12-06 오후 12 41 55" src="https://user-images.githubusercontent.com/89369520/144783618-dcd926d5-c26f-4b7e-abee-461020d67651.png">
 
-#### Transfer Learning (전이학습)
+### Transfer Learning (전이학습)
 - 모든 경우의 충분한 data set이 있지는 않아서, 다른 domain의 모델을 사용해보자.
 - 자원이 풍부한 기존/학습된 지식을 활용하는 것을 목표로 한다.
 - ImageNet : 1400만 이상의 손으로 주석을 단 대규모 시각적 데이터 세트 이미지(1000개 범주)
 <br> 지난 수년간 이것을 기반으로 CNN model들이 개발됨.
 
-### Summary
+## Summary
 - ANN(Artificial Neural Network) : 인공 신경망
 <br> 특징 : 여러 입력값을 받아서 일정 수준이 넘어가면 활성화되어 출력값을 내보냄
 <br> 단점 : 학습 과정에서 파라미터 최적값을 찾기 어려움, overfitting 문제점 발생, 학습 시간이 느림
