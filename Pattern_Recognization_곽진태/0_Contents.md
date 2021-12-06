@@ -53,3 +53,14 @@
 <br> - `K-means Clustering` : Sequence, local minimum
 - [Hierarchical Clustering](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/6_Unsupervised_Learning.md#hierarchical-clustering-%EA%B3%84%EC%B8%B5%EC%A0%81-%EA%B5%B0%EC%A7%91%ED%99%94)
 <br> - Agglomerative, Divisive
+
+#### Lec7 : ANN, CNN
+- ANN (Artificial Neural Networks)
+<br> - Multi-layer Perceptrons, Feed foward, Backpropagation
+<br> - Training Procedure, Gradient Descent, Activation Function ex) single layer, Multi layer
+<br> - cross entropy, Epoch, Batch, Iteration
+- CNN (Convolutional Neural Networks)
+<br> - Convolution, Pooling layer, ex)
+<br> - Convolution vs Fully-connected Layers
+<br> - LeNet5, Alexnet, GoogleNet, Resnet, Densenet
+<br> - Transfer Learning
