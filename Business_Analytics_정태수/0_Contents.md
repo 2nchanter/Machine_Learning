@@ -76,3 +76,7 @@
 #### 분류모델 평가지표
 - Accuracy, Precision, Recall, Specificity, Type 1 Error, Type 2 Error, F1 Score
 - ROC, AUC
+
+### [6_인공신경망](https://github.com/2nchanter/Machine_Learning/blob/main/Business_Analytics_%EC%A0%95%ED%83%9C%EC%88%98/6_%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D.md#%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D)
+- Perceptron, Loss function, Activation function, Gradient
+- MLP(XOR proplem), 과적합 방지, Vanishing gradient problem(ReLU)
