@@ -4,12 +4,10 @@ option = sys.argv[1] # arguments vector, 가변적인 개수의 문자열. 프�
 
 if option == "-a":
     memo = sys.argv[2]
-    f = open('memo.txt', 'a')
-    f.write(memo)
-    f.write('\n')
-    f.close()
+    with open('memo.txt', 'a') as f:
+        f.write(memo)
+        f.write('\n')
 elif option == "-v":
-    f = open('memo.txt')
-    memo = f.read()
-    f.close()
-    print(memo)
+    with open('memo.txt') as f:
+        memo = f.read()
+        print(memo)
