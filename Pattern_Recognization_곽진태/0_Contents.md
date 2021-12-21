@@ -17,7 +17,7 @@
 <br> - Classification Errors
 <br> - `ROC curve, AUC`
 
-#### Lec3 : SVM
+#### Lec3 : [SVM](https://github.com/2nchanter/Machine_Learning/blob/main/Pattern_Recognization_%EA%B3%BD%EC%A7%84%ED%83%9C/3_SVM.md#svm)
 - Linear Discriminant Function
 - `Support Vector Machine`
 - SVM - Linearly Separable Case
